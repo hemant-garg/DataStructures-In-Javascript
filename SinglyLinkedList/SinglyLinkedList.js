@@ -63,7 +63,7 @@ class SinglyLinkedList {
     resetList() {
         this.head = null;
         this.tail = null;
-        this.length--;
+        this.length = 0;
     }
 
     shift() {
